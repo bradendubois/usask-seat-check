@@ -1,0 +1,22 @@
+{
+    "username": "YOUR-NSID-HERE",
+    "password": "YOUR-PASSWORD-HERE,-YES-ACTUALLY",
+
+    "subject": "SUBJ",
+    "course": "101",
+    
+    "available": {
+        "hook": "https://discord.com/api/webhooks/123_webhook_for_available",
+        "message": "@everyone there is a seat available"
+    },
+
+    "broken": {
+        "hook": "https://discord.com/api/webhooks/456_webhook_when_broken",
+        "message": "@tech_support_person the bot is broken"
+    },
+    
+    "full": {
+        "hook": "https://discord.com/api/webhooks/789_webhook_when_full",
+        "message": "message for when full"
+    }
+}
