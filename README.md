@@ -18,7 +18,7 @@ I made this because it is stressful to check constantly, but also nearly impossi
 
 ### Install Requirements
 
-See the [[requirements.txt]] file for necessary modules:
+See the [requirements.txt](requirements.txt) file for necessary modules:
 
 ```shell
 pip install -r requirements.txt
@@ -40,7 +40,7 @@ Follow [Discord's intro](https://support.discord.com/hc/en-us/articles/228383668
 
 ### Store Search Info
 
-Fill out the [[data.json]] file with:
+Fill out the [data.json](data.json) file with:
 * your student login info (necessary to access Banner)
 * the course you want to look for (subject code and number)
 * the webhooks and a custom message you want sent with each
