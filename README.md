@@ -1,6 +1,6 @@
 # usask-seat-check
 
-Check uSask course availability on Banner.
+A bot to automatically (and repeatedly!) check uSask course availability on Banner, and notify you when a seat is available.
 
 **Disclaimer**: This is an *unofficial* repository that is *unaffiliated* with the University of Saskatchewan.
 
@@ -28,7 +28,7 @@ You may need additional libraries or software, but the error messages will be re
 
 ### Create Discord Webhooks
 
-You can use [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to notify you of the particular state of the course.
+You can use [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) to notify you of the particular state of the course. The script really just `POST`s to whatever webhook is provided, so it could (presumably) notify you through something other than Discord, but this has not been tested.
 
 Three states are defined, each supporting their own webhook:
 1. a seat is available
